@@ -1,4 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+/* Navbar styling */
+
+.nav-link {
+font-family: 'Press Start 2P', cursive , sans-serif;
+margin: 30px 30px;
+font-size: large;
+}
+
+/* Body styling */
+
+html body {
+background-color:#0a0d38;
+
+}
+
+/* Footer styling */
+
+.social-links {
+padding-bottom: 15px;
+}
+
+.social-links li a {
+margin:15px;
+font-size: x-large;
+color: #fafafaad;
+
+
+}
 
 
 

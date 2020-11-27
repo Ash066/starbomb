@@ -49,6 +49,7 @@ Currently a non-working merch page is featured on this site, however I hope in t
 ## Tecnologies Used
 * All wireframes were created using the balsamiq wireframes software.
 * Bootstrap 4 was utilised along with user created css stylesheets in the design and function of these pages.
+* Javascript elements taken from the Bootstrap website.
 
 
 ## Testing
