@@ -59,6 +59,7 @@ Currently a non-working merch page is featured on this site, however I hope in t
 ## Credits
 
 ### Content
+* About information of band members in about.html sourced on [official band site.](https://starbomb.com/about/)
 
 ### Media
 
@@ -74,7 +75,7 @@ Currently a non-working merch page is featured on this site, however I hope in t
 * starbomb-band-6 : https://images.genius.com/bce7a7802a76e3737717475104525737.1000x563x1.png
 * members-arin:https://static.wikia.nocookie.net/roosterteeth/images/f/fb/Arin_Hanson.png/revision/latest?cb=20160116040010
 * members-dan: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Dan_Avidan_at_the_Hammersmith_Apollo_in_London_-_October_2017.jpg/1200px-Dan_Avidan_at_the_Hammersmith_Apollo_in_London_-_October_2017.jpg
-* members-brian:https://www.stolendress.com/wp/wp-content/uploads/2015/09/image-1275-800x800.jpg
+* members-brian:https://media2.fdncms.com/sacurrent/imager/u/original/14468153/screen_shot_2018-08-09_at_1.42.25_pm.png
 * starbomb-merch-1 : https://s9.limitedrun.com/images/1426800/StarbombBlackMetalTee_Proof_Front.png
 * starbomb-merch-2 : https://s9.limitedrun.com/images/1426799/Old_Logo_Tee.png
 * starbomb-merch-3 : https://s9.limitedrun.com/images/1426798/StarbombGangTee_Proof_Front.png
