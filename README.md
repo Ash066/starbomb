@@ -50,6 +50,8 @@ Currently a non-working merch page is featured on this site, however I hope in t
 * All wireframes were created using the balsamiq wireframes software.
 * Bootstrap 4 was utilised along with user created css stylesheets in the design and function of these pages.
 * Javascript elements taken from the Bootstrap website.
+* iframe used to embed with the help of [W3Schools](https://www.w3schools.com/html/html_youtube.asp).
+* [cdnjs](https://cdnjs.com/) used to insure proper links used.
 
 
 ## Testing
@@ -62,6 +64,8 @@ Currently a non-working merch page is featured on this site, however I hope in t
 * About information of band members in about.html sourced on [official band site.](https://starbomb.com/about/)
 
 ### Media
+
+* All icons used for this site were sourced at [FontAwesome](https://fontawesome.com/)
 
 #### The following images were used in creation of this site:
 * starbomb-logo-1: https://www.gamegrin.com/assets/Uploads/_resampled/croppedimage640200-starbomb-banner.jpg
@@ -82,6 +86,13 @@ Currently a non-working merch page is featured on this site, however I hope in t
 * starbomb-merch-4 : https://s9.limitedrun.com/images/1456695/BombLogoTee__1_.png
 * starbomb-merch-5 : https://s9.limitedrun.com/images/1456698/BombLogoHoodie.png
 * starbomb-merch-6 : https://s9.limitedrun.com/images/1456700/Starbomb_LogoHat_Mock02__1_.png
+
+#### Videos
+All videos were sourced from the [Egoraptor](https://www.youtube.com/user/egoraptor) youtube channel.
+
+* Rap Battle: Ryu vs. Ken ANIMATED MUSIC VIDEO by Spazkidin3D - Starbomb : https://youtu.be/reVaJhAVEsE
+* The NEW Pokerap!! - ANIMATED MUSIC VIDEO by grind3h – Starbomb https://youtu.be/zCbl-12QV2c
+* Video 3: Overwatch RAP Music Video - Starbomb animated by Knights of the Light Table -https://youtu.be/bbkU_PCimWY
 
 ### Acknoledgements
 
