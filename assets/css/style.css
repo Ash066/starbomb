@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* Navbar styling */
-
 .nav-link {
     font-family: 'Press Start 2P', cursive , sans-serif;
     margin: 30px 30px;
@@ -9,13 +8,8 @@
 }
 
 /* Body styling */
-
 html body {
     background-color:#0a0d38;
-}
-
-body{
-    padding-bottom: 95px;
 }
 
 .title-name{
@@ -33,14 +27,19 @@ body{
     text-align: center;
     word-spacing: 1px;
     display: inline-block;
+    margin:10px;
 }
 
 /* Footer styling */
 footer {
+    position:fixed;
     clear: both;
-    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#343a40;
+    text-align: center;
 }
-
 
 /*Link Styling*/
 .social-links {
@@ -72,14 +71,15 @@ footer {
 #gallery{
     clear: both;
     column-count: 3;
-    line-height: 0;
-    column-gap: 0;
+    line-height: 1;
+    padding-bottom: 4%;
 }
 
 #gallery img{
-    margin-top: 10px;
+    margin: 10px;
     width: 100%;
     height: 100%;
+
 }
 
 /* About Gallery styling*/
@@ -119,29 +119,28 @@ footer {
 }
 
 .form-layout{
-    height: 100%;
+    height: 80%;
     width: 60%;
     margin-right: 20%;
     margin-left: 20%;
+    padding-bottom:5%;
 }
 
 /*Merch page styling*/
-
 .merch-image{
-    max-width: 100%;
-}
+    max-width: 60%;
+} 
 
 /*Merch select styling*/
 
 select, .buy-button {
 display: inline-block;
-font-size: 16px;
+font-size: medium;
 font-family: 'Press Start 2P', cursive , sans-serif;
 color: #000000;
 width:20%;
 max-width:20%;
 box-sizing: border-box;
-margin: 20px;
 border: 1px solid #aaa;
 border-radius: .5em;
 -moz-appearance: none;
@@ -152,7 +151,7 @@ appearance: none;
 
 /*Screensize response*/
 
-@media screen and (max-width: 1396px){
+@media screen and (min-width: 770px){
 
 #merch-layout{
     column-count: 6;
@@ -160,9 +159,18 @@ appearance: none;
 
 }
 
-@media screen and (max-width:943px) {
+@media screen and (max-width:769px) {
 #gallery {
-    column-count: 2;
+    column-count: 3;
+    margin: 20px;
+    display: inline-block;
+}
+
+#gallery img{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+
 }
 
 #music-video{
@@ -173,20 +181,52 @@ appearance: none;
     height: 70%;
     padding-bottom: 10px;
 }
+
+.form-layout{
+    height: 80%;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-bottom:7%;
+}
+
 
 #merch-layout{
     column-count: 2;
 }
 
-select{
+
+
+/*select{
     column-count: 1;
+}*/
+
+.about-text{
+    margin-bottom: 10px;
 }
+
+
+
 
 }
 
-@media screen and (max-width:800px) {
-#gallery, select {
+@media screen and (max-width:480px) {
+#gallery {
     column-count: 1;
+    margin-left: 10px;
+    display: inline-block;
+    padding-bottom: 20%;
+}
+
+#gallery img{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.about-text{
+    padding-bottom: 20%;
 }
 
 #music-video{
@@ -196,6 +236,14 @@ select{
 #music-video iframe {
     height: 70%;
     padding-bottom: 10px;
+}
+
+.form-layout{
+    height: 80%;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-bottom:15%;
 }
 
 #merch-layout{
