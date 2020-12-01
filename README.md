@@ -38,7 +38,7 @@ This page also contains a form for submitting a contact request. Unfortunatly wh
 
 ### Merch
 The about page features the same responsive navigation and footer of the index pade promoting familiarity of use.
-This pages layout is achieved utilising rows and columns. Although this page currently has the capability to accept the required information for ordering of merchandise this is a function not available in this release.
+This pages layout is achieved utilising rows and columns. Although this page currently functions on the surface for ordering of merchandise this does not have the back end to function available in this release.
 As stated below, this is a feature I hope to be able implement completely in the future.
 
 ## Features Left to Implement
@@ -55,6 +55,15 @@ Currently a non-working merch page is featured on this site, however I hope in t
 
 
 ## Testing
+
+### Validating
+
+* style.css validated by [Jigsaw-MarkUpValidationService](https://jigsaw.w3.org/css-validator/)
+* index.html validated by [MarkUpValidationService](https://validator.w3.org/)
+* about.html validated by [MarkUpValidationService](https://validator.w3.org/)
+* music.html validated by [MarkUpValidationService](https://validator.w3.org/)
+* events.html validated by [MarkUpValidationService](https://validator.w3.org/)
+* merch.html validated by [MarkUpValidationService](https://validator.w3.org/)
 
 ## Deployment
 
@@ -95,4 +104,6 @@ All videos were sourced from the [Egoraptor](https://www.youtube.com/user/egorap
 * Video 3: Overwatch RAP Music Video - Starbomb animated by Knights of the Light Table -https://youtu.be/bbkU_PCimWY
 
 ### Acknoledgements
+
+
 
