@@ -21,7 +21,7 @@ Website design was initially planned using the following wireframes which I crea
 ## Features
 
 ### Index
-The index page features a gallery of band photos, and a navigation bar which adapt display based on the screensize of the user primarily throught the use of Bootstrap.
+The index page features a gallery of band photos displayed in a carousel element and links to external music platforms, and a navigation bar which adapt display based on the screensize of the user primarily throught the use of Bootstrap.
 The footer contains social media links which will open in a new tab.
 
 ### About
@@ -31,7 +31,6 @@ This pages layout is achieved utilising rows and colums.
 ### Music
 The about page features the same responsive navigation and footer of the index page promoting familiarity of use.
 This pages layout is achieved utilising rows and columns and embedded videos.
-This page also contains additional links to music media sites which will open in a new tab.
 
 ### Events
 The about page features the same responsive navigation and footer of the index page promoting familiarity of use.
@@ -84,6 +83,7 @@ This element was changed to an unorder list with a background matching the top n
 
 ### Content
 * About information of band members in about.html sourced on [official band site.](https://starbomb.com/about/)
+* Band information in about.html sourced on [Wikipedia](https://en.wikipedia.org/wiki/Starbomb)
 
 ### Media
 

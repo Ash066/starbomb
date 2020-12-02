@@ -5,16 +5,38 @@ html body {
 }
 
 .buffer{ 
-    clear: both;
-    margin-top:30px;
-    margin-bottom: 30px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
+
+.bottom-buffer{
+    margin-bottom: 5%;
+}
+
+.vid-title{
+    font-family: 'Press Start 2P', cursive , sans-serif;
+    color: #fafafaad;
+    text-align: center;
+    padding: 20px;
+    height: 20%;
+    margin-top:40%;
+    margin-bottom:40%;
+    text-decoration: underline;
+    line-height: 3;
+}
+
+
 
 /* Navbar styling */
 .nav-link {
     font-family: 'Press Start 2P', cursive , sans-serif;
     margin: 0px 30px;
     font-size: x-large;
+}
+
+.navbar .active{
+    background:#55585c;
+    border-radius:25px;
 }
 
 /* text styling */
@@ -24,10 +46,12 @@ html body {
     text-align: center;
     padding: 20px;
     height: 10%;
+    text-decoration: underline;
+    line-height: 3;
 }
 
 .about-text{
-    line-height: 1;
+    line-height: 2;
     font-family: 'Press Start 2P', cursive , sans-serif;
     color: #fafafaad;
     text-align: center;
@@ -58,20 +82,23 @@ footer {
     color: #fafafaad;
 }
 
-#music-links a{
-    display: flex;
-    justify-content: center;
-    font-family: 'Press Start 2P', cursive , sans-serif;
-    margin:70px;
-    font-size: x-large;
+/*Button styling*/
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
     color: #fafafaad;
+    background-color:#343a40;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 5px;
 }
 
-#music-links a i {
-    margin: 10px;
-    font-size: xxl;
-    
+.button-position{
+    margin-left: 20%;
+    margin-right:20%;
 }
+
 
 /* Home Gallery styling*/
 
@@ -105,6 +132,7 @@ footer {
 #music-video{
     padding-top: 35px;
     padding-bottom: 35px;
+
 }
 
 /*Form Styling*/
@@ -121,9 +149,11 @@ footer {
     margin-right: 20%;
     margin-left: 20%;
     padding-bottom:5%;
+    line-height: 10px;
 }
 
 /*Merch page styling*/
+
 .merch-image{
     height: 100%;
     width: 100%;  
@@ -131,14 +161,13 @@ footer {
 
 select, .buy-button {
 display:table-row;
+float:left;
 font-size: medium;
 font-family: 'Press Start 2P', cursive , sans-serif;
 color: #000000;
 height: 20%;
-width: 20%;
+width: 90%;
 margin-top:10%;
-margin-right: 40%;
-margin-left: 40%;
 padding-bottom:5%;
 box-sizing: border-box;
 border: 1px solid #aaa;
@@ -148,6 +177,12 @@ border-radius: .5em;
 appearance: none;
 }
 
+#merch-container{
+    background: #fafafaad;
+    box-sizing: border-box;
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: .5em;
+}
 
 /*Screensize response*/
 
