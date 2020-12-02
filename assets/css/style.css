@@ -85,6 +85,7 @@ footer {
 /*Button styling*/
 .button {
     padding: 15px 25px;
+    font-family: 'Press Start 2P', cursive , sans-serif;
     font-size: 24px;
     text-align: center;
     color: #fafafaad;
@@ -183,6 +184,22 @@ appearance: none;
     border: 1px solid rgb(5, 5, 5);
     border-radius: .5em;
 }
+
+/*Event styling*/
+
+#tour div{
+    background-color: #343a40; 
+    display:inline-block;
+    box-sizing: border-box;
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: .5em;
+    color:#fafafaad;
+    font-family: 'Press Start 2P', cursive , sans-serif;
+    padding: 30px 0 0 10px;
+    text-align: center;
+}
+
+
 
 /*Screensize response*/
 
