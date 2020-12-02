@@ -1,7 +1,7 @@
 # Milestone Project 1 - Starbomb
 This website is for submission as my first milestone project. 
 The goal of this site is to promote the band Starbomb by doing the folloing:
-* Provide fans and potenial fans history of the band and its members.
+* Provide fans and potenial fans an introduction to the band and its members.
 * Promote the bands music and video via various channels
 * Promote upcoming events and provide the ability to submit a form for booking.
 * Promote mechandise sales for the band.
@@ -15,6 +15,8 @@ Website design was initially planned using the following wireframes which I crea
 * [Tablet](assets/wireframes/tablet-wireframes.pdf)
 * [Mobile](assets/wireframes/mobile-wireframes.pdf)
 
+### User Stories
+
 
 ## Features
 
@@ -23,21 +25,21 @@ The index page features a gallery of band photos, and a navigation bar which ada
 The footer contains social media links which will open in a new tab.
 
 ### About
-The about page features the same responsive navigation and footer of the index pade promoting familiarity of use.
+The about page features the same responsive navigation and footer of the index page promoting familiarity of use.
 This pages layout is achieved utilising rows and colums.
 
 ### Music
-The about page features the same responsive navigation and footer of the index pade promoting familiarity of use.
+The about page features the same responsive navigation and footer of the index page promoting familiarity of use.
 This pages layout is achieved utilising rows and columns and embedded videos.
 This page also contains additional links to music media sites which will open in a new tab.
 
 ### Events
-The about page features the same responsive navigation and footer of the index pade promoting familiarity of use.
+The about page features the same responsive navigation and footer of the index page promoting familiarity of use.
 This pages layout is achieved utilising rows and columns.
 This page also contains a form for submitting a contact request. Unfortunatly while this form functions on the surface, the information submitted is not passed anywhere valuable as of this release.
 
 ### Merch
-The about page features the same responsive navigation and footer of the index pade promoting familiarity of use.
+The about page features the same responsive navigation and footer of the index page promoting familiarity of use.
 This pages layout is achieved utilising rows and columns. Although this page currently functions on the surface for ordering of merchandise this does not have the back end to function available in this release.
 As stated below, this is a feature I hope to be able implement completely in the future.
 
@@ -64,6 +66,17 @@ Currently a non-working merch page is featured on this site, however I hope in t
 * music.html validated by [MarkUpValidationService](https://validator.w3.org/)
 * events.html validated by [MarkUpValidationService](https://validator.w3.org/)
 * merch.html validated by [MarkUpValidationService](https://validator.w3.org/)
+
+### Website display response 
+
+Website display response was tested for funtionality on destop, tablet and mobile resolutions using chrome developer tools.
+Verified no conflicting html and css. Response elements achieved using Bootstrap and Media Query CSS.
+
+### Footer response issues
+Original iterations contained a fixed navbar for the footer, however due to issues of covering content and difficulty maintaining a cohesive look on all display seizes. 
+This element was changed to an unorder list with a background matching the top navigation bar to achieve a better look and feel of site while maintaining functionality.
+
+### User Story Testing
 
 ## Deployment
 
@@ -105,5 +118,12 @@ All videos were sourced from the [Egoraptor](https://www.youtube.com/user/egorap
 
 ### Acknoledgements
 
+#### This project and site could not have been completed without the support of the following people:
 
+* Arin Hanson, Brian Wecht, and Dan Avidan whose music inspired this project and help create happiness in the darkest of times.
+* Roman Grubic, my in class co-ordinator whom provided support on a daily basis.
+* Excellence Ilesanmi, my mentor whom provided industry perspective and support via the mentor sessions.
+* Code institute, for providing this opportunity to take part in this course and for the learning supports provided.
+* Oisin Gargan whom provided emotional support and supressed the bootstrap enduced murderous rage.
+* The Patdown podcast with Ms.Pat, which made the time spent on this project even more enjoyable.
 
