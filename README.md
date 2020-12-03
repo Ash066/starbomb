@@ -105,6 +105,9 @@ When filling out the form within the event page, there was nothing to stop an em
 When using the grid spacing with bootstrap for the layout of this page, at all device sizes, was not providing an intuitive experience for the user.
 To conteract this the elements within the columns were assigned float values to make sections clearer and button labels were renamed to be more explanitory.
 
+### About Deployment issue
+When site was deployed and visited on a mobile device the line spacing was causing content to overlap. The line spacing was reduced and the issue ceased.
+
 ## Deployment
 
 Deployment process adapted from official [Github](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site) documentation.
