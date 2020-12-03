@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 /*General*/
 html body {
-    background-color:#55585c;
+    background-color:#5dbcd2;
 }
 
 .buffer{ 
@@ -25,8 +25,6 @@ html body {
     line-height: 3;
 }
 
-
-
 /* Navbar styling */
 .nav-link {
     font-family: 'Press Start 2P', cursive , sans-serif;
@@ -44,10 +42,10 @@ html body {
     font-family: 'Press Start 2P', cursive , sans-serif;
     color: #fafafaad;
     text-align: center;
-    padding: 20px;
+    padding: 25px 5px;
     height: 10%;
     text-decoration: underline;
-    line-height: 3;
+    line-height: 2;
 }
 
 .about-text{
@@ -58,6 +56,7 @@ html body {
     word-spacing: 1px;
     display: inline-block;
     margin:10px;
+    padding: 25px 5px;
 }
 
 /* Footer styling */
@@ -84,22 +83,23 @@ footer {
 
 /*Button styling*/
 .button {
-    padding: 15px 25px;
+    padding: 5px;
     font-family: 'Press Start 2P', cursive , sans-serif;
-    font-size: 24px;
+    font-size:medium;
     text-align: center;
+    vertical-align: middle;
     color: #fafafaad;
     background-color:#343a40;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-    margin: 5px;
+    margin: 10px;
 }
 
-.button-position{
-    margin-left: 20%;
-    margin-right:20%;
-}
 
+.icon{
+    vertical-align: middle;
+    margin-bottom:6px;
+}
 
 /* Home Gallery styling*/
 
@@ -118,15 +118,18 @@ footer {
 #about-photo{
     clear: both;
     column-count: 3;
-    line-height: 0;
+    line-height: 1;
     column-gap: 0;
 }
 
 #about-photo img{
     clear: both;
+    line-height: 1;
     margin-top: 10px;
     width: 100%;
     height: 60%;
+    padding-top: 20px;
+    padding-bottom:20px;
 }
 
 /*Video Styling */
@@ -156,6 +159,7 @@ footer {
 /*Merch page styling*/
 
 .merch-image{
+    float: right;
     height: 100%;
     width: 100%;  
 } 
@@ -169,7 +173,9 @@ color: #000000;
 height: 20%;
 width: 90%;
 margin-top:10%;
+margin-right: 2%;
 padding-bottom:5%;
+padding-right: 0;
 box-sizing: border-box;
 border: 1px solid #aaa;
 border-radius: .5em;
@@ -199,8 +205,6 @@ appearance: none;
     text-align: center;
 }
 
-
-
 /*Screensize response*/
 
 
@@ -211,6 +215,13 @@ appearance: none;
 #merch-layout{
     column-count: 4;
 }
+
+.button-position{
+    margin-left: 40%;
+    margin-right:40%;
+    width: 20%;
+}
+
 }
 
 /* Tablet Response */
@@ -225,6 +236,12 @@ appearance: none;
 #carouselBandImages img{
     width: 90%;
     height: 100%;
+}
+
+.button-position{
+    margin-left: 40%;
+    margin-right:40%;
+    width: 20%;
 }
 
 #music-video{
@@ -249,7 +266,7 @@ appearance: none;
 }
 
 .about-text{
-    margin-bottom: 10px;
+    padding:25px 5px;
 }
 }
 
@@ -257,7 +274,15 @@ appearance: none;
 @media screen and (max-width:480px) {
 
 footer{
+    margin-top:10%;
     height:6%;
+}
+
+.button-position{
+    margin-left: 20%;
+    margin-right:20%;
+    width: 60%;
+    padding-bottom: 25px;
 }
 
 #carouselBandImages{
@@ -272,8 +297,14 @@ footer{
 }
 
 .about-text{
-    padding-bottom: 20%;
+    padding:25px 5px;
 }
+
+.title-name{
+    padding:25px 5px;
+}
+
+.
 
 #music-video{
     column-count: 1;
