@@ -1,7 +1,7 @@
 # Milestone Project 1 - Starbomb
 This website is for submission as my first milestone project. 
 The goal of this site is to promote the band Starbomb by doing the folloing:
-* Provide fans and potenial fans an introduction to the band and its members.
+* Provide fans and potential fans an introduction to the band and its members.
 * Promote the bands music and video via various channels
 * Promote upcoming events and provide the ability to submit a form for booking.
 * Promote mechandise sales for the band.
@@ -17,6 +17,20 @@ Website design was initially planned using the following wireframes which I crea
 
 ### User Stories
 
+#### User 1 - Band Member
+As a band member I want to be sure that people can be diverted to our music platforms to increase playcount statistics on our music and in turn increase revenue from this avenue.
+
+#### User 2 - Band Member
+As a band member I want our fans to have easy access to, not only our planned tour dates but to also have a way to contact us for booking us for events.
+
+#### User 3 - Band Member
+As a band member I want to promote our social media channels as this gives us a more instant connection with our fans.
+
+#### User 4 - Site User
+As a potential fan, I've heard a song on the radio and want to find more of their music.
+
+#### User 5 - Site User
+As a fan in a small country, the band does not tour here but I still want to pick up some merchandise and support the band.
 
 ## Features
 
@@ -48,9 +62,9 @@ Currently a non-working merch page is featured on this site, however I hope in t
 
 
 ## Tecnologies Used
-* All wireframes were created using the balsamiq wireframes software.
-* Bootstrap 4 was utilised along with user created css stylesheets in the design and function of these pages.
-* Javascript elements taken from the Bootstrap website.
+* All wireframes were created using the [balsamiq](https://balsamiq.com/) wireframes software.
+* [Bootstrap](https://getbootstrap.com/) was utilised along with user created css stylesheets in the design and function of these pages.
+* Javascript elements taken from the [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/javascript/) website.
 * iframe used to embed with the help of [W3Schools](https://www.w3schools.com/html/html_youtube.asp).
 * [cdnjs](https://cdnjs.com/) used to insure proper links used.
 
@@ -75,9 +89,40 @@ Verified no conflicting html and css. Response elements achieved using Bootstrap
 Original iterations contained a fixed navbar for the footer, however due to issues of covering content and difficulty maintaining a cohesive look on all display seizes. 
 This element was changed to an unorder list with a background matching the top navigation bar to achieve a better look and feel of site while maintaining functionality.
 
-### User Story Testing
+### Music link response issues
+During the development of the site the music platform links were moved from the music page to the landing page as this would most likely be the main reason why fans visit the site and as providing traffic to these platforms was beneficial to the band for promotion of their music play count and sales.
+As they were now on the landing page additional styling was required which did not respond as intended when tested on a differnet screen size. Media Query elements were added to the CSS file to target the buttons to ensure correct display on all devices. 
+
+### Event page testing
+
+When testing the funtionality of the event page using a screen reader, it was established that the tour poster portraying the information was ineffective for anyone accessing this site using this tecnology.
+To make this information more accessable the tour poster image element was removed and the information was conveyed using text. This also allows the possibility of adding hyperlinks to the individual dates for buying tickets from respective venue sites.
+
+### Form empty fields
+When filling out the form within the event page, there was nothing to stop an empty field from being submitted. The required modifier was added to the name, email and event details, fields to ensure the submitted request was complete.
+
+### Merch element spacing unclear
+When using the grid spacing with bootstrap for the layout of this page, at all device sizes, was not providing an intuitive experience for the user.
+To conteract this the elements within the columns were assigned float values to make sections clearer and button labels were renamed to be more explanitory.
 
 ## Deployment
+
+Deployment process adapted from official [Github](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site) documentation.
+
+The following steps were taken to deploy this site:
+
+1. Created a repository via my Github profile by selecting the 'New Repository' option from the dropdown menu in the upper-right corner of the page.
+2. From the owner dropdown menu selector, I chose my username and gave the repository the name 'Starbomb'.
+3. Visibility was set to public as this is a requirement to deploy this page via Github Pages.
+4. I selected Initialize this repository with a README so that it would be possible to immediately clone the repository to my pc.
+5. I then selected create repository.
+6. Using the [Gitpod](https://www.gitpod.io/) development environment I created the required css and html pages. I also uploaded the required media within this environment.
+7. Upon completion of these files I opened my github profile and selected the repositories tab.
+8. Within the repositories tab I selected the starbomb repository. 
+9. I accessed the settings using the settings tab on the navigation bar of this repository.
+10. Scroll down to the Github Pages section of the settings.
+11. Within the Github Pages section, under the source heading, I selected the master branch and the root folder.
+12. Saved the selected options.
 
 ## Credits
 
@@ -126,4 +171,3 @@ All videos were sourced from the [Egoraptor](https://www.youtube.com/user/egorap
 * Code institute, for providing this opportunity to take part in this course and for the learning supports provided.
 * Oisin Gargan whom provided emotional support and supressed the bootstrap enduced murderous rage.
 * The Patdown podcast with Ms.Pat, which made the time spent on this project even more enjoyable.
-
