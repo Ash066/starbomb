@@ -60,14 +60,12 @@ As stated below, this is a feature I hope to be able implement completely in the
 
 Currently a non-working merch page is featured on this site, however I hope in the future with further study of javascript I will be able to make this a functioning page.
 
-
 ## Tecnologies Used
 * All wireframes were created using the [balsamiq](https://balsamiq.com/) wireframes software.
 * [Bootstrap](https://getbootstrap.com/) was utilised along with user created css stylesheets in the design and function of these pages.
 * Javascript elements taken from the [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/javascript/) website.
 * iframe used to embed with the help of [W3Schools](https://www.w3schools.com/html/html_youtube.asp).
 * [cdnjs](https://cdnjs.com/) used to insure proper links used.
-
 
 ## Testing
 
@@ -105,8 +103,31 @@ When filling out the form within the event page, there was nothing to stop an em
 When using the grid spacing with bootstrap for the layout of this page, at all device sizes, was not providing an intuitive experience for the user.
 To conteract this the elements within the columns were assigned float values to make sections clearer and button labels were renamed to be more explanitory.
 
-### About Deployment issue
+### About page Deployment issue
 When site was deployed and visited on a mobile device the line spacing was causing content to overlap. The line spacing was reduced and the issue ceased.
+
+### User Story 1
+The user wanted to be sure moving traffic to music platforms was a priority so the links were removed from the music page and relocated to the landing page as seen [here](assets/ustories/user-story-1.jpg).
+To ensure these links were a main focus, this page was not overcrowded with additional content.
+
+### User Story 2
+The user wanted ease of accessibility to current tour information and booking contact details.
+This was achieved by using text based elements to ensure content was compatiable with technologies such as screen readers. 
+Please click [here](assets/ustories/user-story-2.jpg) for related screenshot.
+
+### User Story 3
+The user wanted social media links to be ready and available as they wish to interact with their fanbase more to build deeper relationships.
+This was achived by placing the social links in a sticky footer which means the links will remain in view on the bottom of the screen regardless of what page or page position.
+An example of this can be seen [here](assets/ustories/user-story-3.jpg).
+
+### User Story 4 
+The user is unfamiliar with the majority of the bands music and wishes to know more. While the main page somewhat serves this need by providing links to music platforms, the music page contains three embeded music videos that feature striking visuals and a catchy song from each of the bands three albums.
+This can be seen [here](assets/ustories/user-story-4.jpg).
+
+### User Story 5
+The user is a fan which does not have access to the bands physical shows but wishes to show their support by purchasing merchandise.
+The need is served by the [merch](assets/ustories/user-story-5.jpg) page which features all available items and labled buttons to ensure the buying process is intuitive and simple.
+The alt tags provided for each item also details the merchandise.
 
 ## Deployment
 
