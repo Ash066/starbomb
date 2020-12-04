@@ -10,6 +10,29 @@ The goal of this site is to promote the band Starbomb by doing the folloing:
 
 ### Design
 Website design was initially planned using the following wireframes which I created:
+ 
+ #### Desktop
+ ![Desktop Home](assets/wireframes/desktop-wireframes-home.jpg)
+ ![Desktop About](assets/wireframes/desktop-wireframes-about.jpg)
+ ![Desktop Music](assets/wireframes/desktop-wireframes-music.jpg)
+ ![Desktop Events](assets/wireframes/desktop-wireframes-events.jpg)
+ ![Desktop Merch](assets/wireframes/desktop-wireframes-merch.jpg)
+
+#### Tablet
+ ![Tablet Home](assets/wireframes/tablet-wireframes-home.jpg)
+ ![Tablet About](assets/wireframes/tablet-wireframes-about.jpg)
+ ![Tablet Music](assets/wireframes/tablet-wireframes-music.jpg)
+ ![Tablet Events](assets/wireframes/tablet-wireframes-events.jpg)
+ ![Tablet Merch](assets/wireframes/tablet-wireframes-merch.jpg)
+
+ #### Mobile
+ ![Mobile Home](assets/wireframes/mobile-wireframes-home.jpg)
+ ![Mobile About](assets/wireframes/mobile-wireframes-about.jpg)
+ ![Mobile Music](assets/wireframes/mobile-wireframes-music.jpg)
+ ![Mobile Events](assets/wireframes/mobile-wireframes-events.jpg)
+ ![Mobile Merch](assets/wireframes/mobile-wireframes-merch.jpg)
+
+Wireframes available as pdf here:
 
 * [Desktop](assets/wireframes/desktop-wireframes.pdf)
 * [Tablet](assets/wireframes/tablet-wireframes.pdf)
@@ -181,7 +204,7 @@ The following steps were taken to deploy this site:
 #### Videos
 All videos were sourced from the [Egoraptor](https://www.youtube.com/user/egoraptor) youtube channel.
 
-* Rap Battle: Ryu vs. Ken ANIMATED MUSIC VIDEO by Spazkidin3D - Starbomb : https://youtu.be/reVaJhAVEsE
+* Luigi's Ballad ANIMATED MUSIC VIDEO - Starbomb - Starbomb : https://youtu.be/0jfU7pw76ZE
 * The NEW Pokerap!! - ANIMATED MUSIC VIDEO by grind3h – Starbomb https://youtu.be/zCbl-12QV2c
 * Video 3: Overwatch RAP Music Video - Starbomb animated by Knights of the Light Table -https://youtu.be/bbkU_PCimWY
 
